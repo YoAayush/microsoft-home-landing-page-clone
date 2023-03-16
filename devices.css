@@ -74,7 +74,9 @@
     .bottom_right ul li .tom{
         margin-left: 0em;
     }
-}
+    ._mh{
+        margin-left: 0.6rem;    
+    }
 
 @media screen and (max-width : 1080px){
     ._lists{
