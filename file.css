@@ -121,6 +121,10 @@ span.para{
     margin-left: 0.3rem;
     font-family: 'Times New Roman', Times, serif;
 }
+#pop_menu ul li a{
+    color: black;
+    text-decoration: none;
+}
 #pop_menu hr{
     margin: 0.5rem 0 0.5rem 0;
 }
