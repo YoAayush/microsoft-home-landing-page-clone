@@ -1,8 +1,4 @@
 @media screen and (max-width : 4100px){
-    *{
-        margin: 0;
-        padding: 0;
-    }
     header, nav, .some_text img{
         width:100%;
     }
