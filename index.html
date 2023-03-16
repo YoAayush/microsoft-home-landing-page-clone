@@ -55,6 +55,23 @@
     </header>
     <div class="some_text">
         <img src="Blade001_Hero_3840x1000.jpg">
+        <div id="pop_menu">
+            <ul>
+                <li><a href="">Microsoft 365</a></li><hr>
+                <li><a href="">Teams</a></li><hr>
+                <li><a href="">Windows</a></li><hr>
+                <li><a href="">Surface</a></li><hr>
+                <li><a href="">Xbox</a></li><hr>
+                <li><a href="">Support</a></li><hr>
+                <li><a href="">Software</a></li><hr>
+                <li><a href="">PCs & Devices</a></li><hr>
+                <li><a href="">Entertainment</a></li><hr>
+                <li><a href="">Business</a></li><hr>
+                <li><a href="">Developer & IT</a></li><hr>
+                <li><a href="">Other</a></li><hr>
+                <li><a href="">View Sitemap</a></li>
+            </ul>
+        </div>
         <div class="_01">
             <span class="para">Microsoft 365</span><br>
             <div class="_h2"><p>you need to achieve more in less time</p></div>
@@ -271,5 +288,29 @@
             </footer>
         </div>
     </div>
+    
+    <script>
+        function tap(){
+            const x = document.getElementById("pop_menu");
+            x.style.display = 'block';
+
+            const y = document.getElementById("_menu");
+            y.style.display = 'none';
+
+            const z = document.getElementById("_close");
+            z.style.display = 'flex';
+        }
+
+        function poco(){
+            const hen = document.getElementById("pop_menu");
+            hen.style.display = 'none';
+
+            const g = document.getElementById("_close");
+            g.style.display = 'none'; 
+
+            const y = document.getElementById("_menu");
+            y.style.display = 'flex';
+        }
+    </script>
 </body>
 </html>
