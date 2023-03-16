@@ -40,6 +40,12 @@
     .bottom_right{
         margin: 0;
     }  
+    #_sdl{
+        display: contents;
+    }
+    .about_bing2{
+        margin-left: 1rem;
+    }
 }
 
 @media screen and (max-width : 860px){
@@ -64,6 +70,12 @@
         display: flex;
         margin: auto;
     }
+    #_sdl{
+        display: contents;
+    }
+    .about_bing2{
+        margin-left: 1rem;
+    }
 }
 
 @media screen and (max-width : 460px){
@@ -76,6 +88,12 @@
     }
     ._mh{
         margin-left: 0.6rem;    
+    }
+    #_sdl{
+        display: contents;
+    }
+    .about_bing2{
+        margin-left: 1rem;
     }
 
 @media screen and (max-width : 1080px){
@@ -159,5 +177,11 @@
 @media screen and (max-width : 260px){
     ._hjk{
         display: block;
+    }
+    #_sdl{
+        display: contents;
+    }
+    .about_bing2{
+        margin-left: 1rem;
     }
 }
