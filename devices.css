@@ -64,6 +64,9 @@
         display: flex;
         margin: auto;
     }
+    .about_bing{
+        display: none;
+    }
     #_sdl{
         display: contents;
     }
