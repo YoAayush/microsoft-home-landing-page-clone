@@ -95,6 +95,12 @@
     .about_bing2{
         margin-left: 1rem;
     }
+    
+@media screen and (max-width : 1000px){
+    .about_bing{
+        display: none;
+    }
+    }
 
 @media screen and (max-width : 1080px){
     ._lists{
