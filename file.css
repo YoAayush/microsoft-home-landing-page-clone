@@ -103,6 +103,27 @@ span.para{
 ._01 input:hover{
     background-color: blue;
 }
+#pop_menu{
+    display: none;
+    position: absolute;
+    top: 4rem;
+    z-index: 3;
+    width: 100%;
+    margin: auto;
+    background-color: rgb(245, 240, 233);
+}
+#pop_menu ul{
+    list-style: none;
+}
+#pop_menu ul li{
+    font-size: 1rem;
+    cursor: pointer;
+    margin-left: 0.3rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+#pop_menu hr{
+    margin: 0.5rem 0 0.5rem 0;
+}
 ._h2{
     height: fit-content;
     width: fit-content;
@@ -420,4 +441,9 @@ footer{
 }
 ._mh{
     margin-left: 1rem;
+}
+#_close{
+    margin-left: 0;
+    display: none;
+    width: fit-content;
 }
