@@ -383,7 +383,7 @@ nav ul li:hover{
 }
 ._more{
     background-color: rgb(243, 240, 240);
-    width: fit-content;
+    width: 100%;
     padding: 1% 5% 0.5% 3.5%;
     font-size: 11px;
 }
